@@ -1,30 +1,26 @@
-# Fiber Audio TX  
+# fiber-audio-tx
 **Transmitter Firmware**
 
-Firmware for the **fiber-optic audio transmitter** based on AVR microcontrollers.
-
----
-
-## Features
-- Audio sampling and transmission over optical fiber
-- UART or ISP flashing supported
-- Simple GNU Make build system
+Firmware for the fiber-optic audio transmitter based on AVR microcontrollers.
 
 ---
 
 ## Dependencies
 
-Required toolchain:
-
+### Required
 - `gcc`
 - `avr-gcc`
 - `avr-libc`
 - `avrdude`
 - `make`
 
-### Install on Debian / Ubuntu
+### Install on Debian/Ubuntu
+
 ```bash
 sudo apt install gcc-avr binutils-avr avr-libc avrdude build-essential
+```
+
+Or use whatever AVR-compatible toolchain you want.
 
 ---
 
