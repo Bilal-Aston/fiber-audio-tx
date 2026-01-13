@@ -26,12 +26,12 @@ Or use whatever AVR-compatible toolchain you want.
 
 ## Build Instructions
 
-1.) `make clean` — cleanup  
+1.) `make clean` - cleanup  
 
-2.) `make all` — build hex binary  
+2.) `make all` - build hex binary  
 
-3.) `make flash` — flash via UART  
-    **OR** `make flashISP` — flash via ISP  
+3.) `make flash` - flash via UART  
+    **OR** `make flashISP` - flash via ISP  
 
 ---
 
