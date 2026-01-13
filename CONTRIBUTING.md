@@ -224,7 +224,7 @@ This auto-closes the Issue when the PR is merged and keeps the history clear.
 
 ### 8.2 Directory structure
 
-Respect the existing layout & don’t invent new folders.
+-Respect the existing layout & don’t invent new folders.
 
 ### 8.3 Comments
 
