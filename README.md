@@ -7,7 +7,7 @@ gcc
 ,avr-gcc
 ,avr-libc
 ,avrdude
-make
+,make
 
 can be installed with : sudo apt install gcc-avr binutils-avr avr-libc avrdude build-essential
 or use whatever toolchain you want
