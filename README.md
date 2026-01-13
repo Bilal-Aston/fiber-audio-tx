@@ -1,5 +1,4 @@
 # fiber-audio-tx
-**Transmitter Firmware**
 
 Firmware for the fiber-optic audio transmitter based on AVR microcontrollers.
 
