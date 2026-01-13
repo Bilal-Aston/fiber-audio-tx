@@ -30,8 +30,7 @@ Or use whatever AVR-compatible toolchain you want.
 
 2.) `make all` - build hex binary  
 
-3.) `make flash` - flash via UART  
-    **OR** `make flashISP` - flash via ISP  
+3.) `make flash` - flash via UART  **OR** `make flashISP` - flash via ISP  
 
 ---
 
