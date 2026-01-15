@@ -29,7 +29,7 @@ Before contributing, you should have:
 Clone the repository **once**:
 
 ```bash
-git clone git@github.com:Bilal-Aston/fiber-audio-tx.git
+git clone https://github.com/Bilal-Aston/fiber-audio-tx.git
 cd fiber-audio-tx
 ```
 
