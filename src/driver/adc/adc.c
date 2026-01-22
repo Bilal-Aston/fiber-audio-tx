@@ -3,7 +3,7 @@
 int adc_init(void)
 {
 //disable input buffer on ADC0
-DIDR0|= (1 << ADC0D);
+DIDR0 |= (1 << ADC0D);
  
 //select ADC0 and Set voltage reference to AVCC
 ADMUX = 1<<REFS0;
