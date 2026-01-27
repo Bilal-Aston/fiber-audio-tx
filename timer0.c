@@ -1,4 +1,4 @@
-#include "Timer0.h"
+#include "timer0.h"
 
 int Timer0_init(void)
 
