@@ -1,6 +1,6 @@
 #include "timer0.h"
 
-int Timer0_init(void)
+int timer0_init(void)
 
 {
         DDRB |= (1 << PB3);
@@ -12,10 +12,10 @@ int Timer0_init(void)
         TCCR0B = (1 << CS00);
         // Register B - Prescaler = 1
 
-        return = 0;
+        return 0;
 }
 
 void set_duty(uint8_t duty)
 {
-	OCR0A = duty:
+	OCR0A = duty;
 }
