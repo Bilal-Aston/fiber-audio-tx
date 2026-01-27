@@ -1,7 +1,10 @@
-#ifndef Timer0_h
-#define Timer0_h
-#include <avr/io.h>
+#ifndef timer0_h
+#define timer0_h
 
-int Timer0_init(void);
+#include <avr/io.h>
+#include <stdint.h>
+
+int timer0_init(void);
+void set_duty(uint8_t duty);
 
 #endif
