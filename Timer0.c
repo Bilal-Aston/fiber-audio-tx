@@ -15,3 +15,7 @@ int Timer0_init(void)
         return = 0;
 }
 
+void set_duty(uint8_t duty)
+{
+	OCR0A = duty:
+}
