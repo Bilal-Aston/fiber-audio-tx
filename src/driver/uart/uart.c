@@ -31,7 +31,7 @@ void uart_putStream(const uint8_t *buf, uint16_t len)
 
 	while ((uart_putByte = read(0, buf, len-1)) > 0)
 	    write(1, buf, n);
-	    return 0;	    
+	    return 0;	
 }
 		
 
